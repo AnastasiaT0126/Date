@@ -60,7 +60,7 @@ public enum DayOfWeek {
 				result = result + arr[i];
 			}
 		}
-		else System.out.println();
+		else System.out.println("Invalid value");
 		return result;
 	}
 
