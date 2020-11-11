@@ -1,7 +1,5 @@
 package Project;
 
-import java.time.LocalDate;
-
 public class Reminder {
 	private static int eventsSize = 30;
 	
@@ -55,10 +53,4 @@ public class Reminder {
 		}
 		return todaysEventsArr;
 	}
-	
-	public void remind()
-	{
-		LocalDate currentDate = LocalDate.now(); 
-	}
-
 }
