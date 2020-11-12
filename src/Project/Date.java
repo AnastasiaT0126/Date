@@ -199,6 +199,18 @@ public class Date {
 		return currentWeek;
 	}
 	
+	public String toStringEvent()
+	{
+		String result = days + "/" + month + "/" + year + " " + hours + ":" + minutes ;
+		return result;
+	}
 	
-
+	public boolean equalDates(Date date)
+	{
+		if((this.days == date.days) && (this.month == date.month) && (this.year == date.year))
+		{
+			return true;
+		}
+		return false;
+	}
 }
